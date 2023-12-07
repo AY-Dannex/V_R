@@ -1,0 +1,408 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(https://img2.wallspic.com/previews/0/1/0/4/14010/14010-atmosphere-space-reality-virtual_reality_headset-virtual_reality-x750.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 100px;
+    position: sticky;
+    left: 10px;
+    transition: width 2s;
+}
+
+.logo:hover{
+    width: 120px;
+}
+
+header{
+    background-color: black;
+    padding: 10px 15px;
+    width: 50px;
+    height: 0px;
+    transition: width 1.5s, height 2s;
+    position: sticky;
+    top: 5px;
+    border-radius: 100px;
+    margin: auto;
+    z-index: 1;
+}
+
+header:hover{
+    background-color: black;
+    width: 50%;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1;
+}
+
+header .container{ 
+    display: none;
+}
+
+header:hover .container{
+    display: inline-flex;
+}
+
+header .container .dropdown-content{
+    display: inline-flex;
+    gap: 6rem;
+    justify-content: space-around;
+    position: relative;
+    left: 12rem;
+    top: .3rem;
+}
+
+header .dropdown-content a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: blueviolet;
+    font-family:'Signika Negative', sans-serif;
+    font-weight: bold;
+}
+
+header .dropdown-content a:hover{
+    color: white;
+}
+
+header .container-two button{
+    width: 100px;
+    height: 33px;
+    font-size: 1rem;
+    padding: 5px 10px;
+    position: relative;
+    top: -5px;
+    border-style: none;
+    font-family:'Signika Negative', sans-serif;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, dodgerblue, dodgerblue, blueviolet, blueviolet);
+}
+
+header .container-two button:hover{
+    background-image: linear-gradient(to bottom right, blueviolet, blueviolet, dodgerblue, dodgerblue);
+}
+
+header .container-two .dropdown-content-two{
+    width: 100px;
+    box-shadow: 0px 0px 5px 1px;
+    display: none;
+    z-index: 1;
+    height: 167px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+header .container-two .dropdown-content-two a{
+    display: block;
+    padding: 12px 15px;
+    color: black;
+    font-weight: lighter;
+}
+
+header .container-two .dropdown-content-two a:hover{
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.container-two > button:focus + .dropdown-content-two{
+    display: block;
+}
+
+.others{
+    padding: 5px;
+}
+
+.others .btn{
+    background-color: transparent;
+    background-image: none;
+    border-style: none;
+    height: 40px;
+    position: relative;
+    left: -5px;
+    color: black;
+    box-shadow: none;
+}
+
+.others .btn:hover{
+    background-color: #ddd;
+    border-radius: 5px;
+    background-image: none;
+}
+
+.others .other-content{
+    display: none;
+    width: 100px;
+    position: relative;
+    left: 6.1rem;
+    top: -2.5rem;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 5px;
+}
+
+.others .other-content a:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.others .other-content a{
+    display: inline-block;
+}
+
+.others:hover .other-content{
+    display: inline-block;
+}
+
+.main-one{
+    padding: 10px 15px;
+    background-color: transparent;
+    background-image: url(https://img.freepik.com/premium-vector/abstract-white-flowing-line-wave-with-lighting-effect-purple-blue-gradient-color-background_120819-355.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    position: relative;
+    top: -150px;
+    z-index: -1;
+    color: white;
+}
+
+.main-one .top{
+    padding: 15px 20px;
+    position: relative;
+    left: 15px;
+    top: 100px;
+    width: 40%;
+}
+
+.main-one .top h3 {
+    font-family: cursive;
+    position: relative;
+    margin-top: 100px;
+}
+
+.main-one .top h1{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 7rem;
+}
+
+.main-one .top p{
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.main-two{
+    width: 100%;
+    margin: auto;
+}
+
+.main-two ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 70px;
+    gap: 140px;
+}
+
+.main-two ul li{
+    flex-basis: 350px;
+    list-style-type: none;
+}
+
+.main-two ul li img{
+    object-fit: cover;
+    max-width: 125%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+    transition: max-width 2s;
+}
+
+.main-two ul li img:hover{
+    max-width: 128%;
+}
+
+.right-img img{
+    object-fit: cover;
+    width: 550px;
+    position: relative;
+    bottom: 1047px;
+    left: 900px;
+}
+
+footer{
+    background-image: url(https://img.myloview.de/bilder/dark-blue-abstract-background-for-business-presentation-with-waves-and-curves-400-262151373.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    position: relative;
+    top: 350px;
+    color: white;
+}
+
+footer .parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+}
+
+footer .parent div{
+    padding: 10px 15px;
+    width: 300px;
+}
+
+footer .parent div img{
+    width: 80px;
+}
+
+footer .parent div span{
+    position: relative;
+    top: 10px;
+    font-size: 0.8rem;
+}
+
+footer .parent .link{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+footer .parent div .links {
+    display: grid;
+    gap: 0.5rem;
+}
+
+footer .parent div .links a{
+    color: white;
+    text-decoration: none;
+}
+
+.letter{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.letter form input{
+    width: 250px;
+    height: 30px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(176, 171, 171);
+    outline: none;
+}
+
+.letter form input::placeholder{
+    color: white;
+}
+
+.letter form button{
+    font-size: 1.7rem;
+    position: relative;
+    top: 4.5px;
+    left: -5px;
+    background-color: transparent;
+    color: white;
+    width: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+}
+
+.letter form button:hover{
+    color: rgb(176, 171, 171);;
+}
+
+.letter div{
+    width: 200px;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+.letter div a{
+    text-decoration: none;
+    color: white;
+}
+
+.letter div a:hover{
+    color: lightgrey;
+}
+
+footer hr{
+    margin: auto;
+    width: 90%;
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+
+@media only screen and (max-width: 820px) {
+    body{
+        background-image: none;
+        background-color: black;
+    }
+
+    header{
+        background-color: white;
+    }
+
+    header:hover{
+        background-color: white;
+        height: 18px;
+    }
+
+    header .container .dropdown-content{
+        gap: 3rem;
+        position: relative;
+        margin-left: -135px;
+        top: -1px;
+    }
+
+    header .dropdown-content a{
+        font-size: 0.85rem;
+    }
+
+    header .dropdown-content a:hover{
+        color: black;
+    }
+
+    header .container-two button{
+        width: 80px;
+        height: 26px;
+        font-size: 0.85rem;
+    }
+
+    header .container-two .dropdown-content-two{
+        width: 80px;
+        height: 154px;
+    }
+
+    .others .other-content{
+        display: none;
+        width: 80px;
+        position: relative;
+        left: 5rem;
+        
+    }
+    
+}
